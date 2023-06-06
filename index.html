@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Sql Aggregate Function</title>
+        <link rel="stylesheet" href="./css/style.css" />
+        <link rel="icon" href="./img/icon.png" />
+    </head>
+    <body class="body">
+        <header>
+            <div class="container-1">
+                <nav class="container">
+                    <div class="search">
+                        <button>
+                            <svg
+                                class="aisSearchBoxsubmitIcon"
+                                xmlns="https://www.w3.org/2000/svg"
+                                view-Box="0 0 40 40">
+                                <path
+                                d="M26.804 29.01c-2.832 2.34-6.465 3.746-10.426 3.746C7.333 32.756 0 25.424 0 16.378 0 7.333 7.333 0 16.378 0c9.046 0 16.378 7.333 16.378 16.378 0 3.96-1.406 7.594-3.746 10.426l10.534 10.534c.607.607.61 1.59-.004 2.202-.61.61-1.597.61-2.202.004L26.804 29.01zm-10.426.627c7.323 0 13.26-5.936 13.26-13.26 0-7.32-5.937-13.257-13.26-13.257C9.056 3.12 3.12 9.056 3.12 16.378c0 7.323 5.936 13.26 13.258 13.26z"
+                             ></path>
+                            </svg>
+                        </button>
+                        <input type="text" placeholder="search 10,000+tutorials" />
+                    </div>
+l                <div class="img-code">
+                        <img
+                        class="freecode"
+                        src="./img/freecode2.jpeg"
+                        alt="img"
+                        />
+                    </div>
+                    <div class="head-left">
+                        <div class="forum">Forum</div>
+                        <div class="donate">Donate</div>
+                    </div>
+                </nav>
+            </div>
+            <div class="learn">
+                <p>Learn to code - <a href="#">3,000-hour curriculum</a></p>
+            </div>
+            <h1 class="heading">
+                <span class="date"
+                        >MARCH 4, 2022 /
+                    <a
+                        class="html"
+                        href="https://www.freecodecamp.org/news/tag/html/"
+                        >#HTML</a>
+                </span>
+            </h1>
+            <span class="front"
+                    >Frontend Development Project - Create a Blog with HTML &
+                    CSS
+            </span>
+            <div class="author">
+                <div class="name-img">
+                    <img src="./img/beau-carnes-gravatar.jpeg" alt="img" />
+                </div>
+                <div class="name">
+                    <a
+                            class="beau"
+                            href="https://www.freecodecamp.org/news/author/beau/"
+                            >Beau Carnes
+                    </a>
+                </div>
+            </div>
+            </h1>
+            <div class="blog">
+                <img class="blog-img" src="./img/blog.png" alt="img" />
+            </div>
+        </header>
+        <div class="content2">
+            <p class="heading2">
+                    It's time for you to improve your HTML and CSS skills by
+                    creating a blog.
+            </p>
+            <p>
+                    We just posted a frontend development course on the
+                    freeCodeCamp.org YouTube channel that will teach you how to
+                    build a blog with HTML and CSS.
+            </p>
+            <p>
+                    Julio Codes created this course. He has a popular YouTube
+                    channel where he posts amazing technical courses.
+            </p>
+            <figure class="thumnail-img-wrapper">
+                <img
+                        class="thumbnail"
+                        src="./img/thumbnail.jpg"
+                        alt="img"
+                        /> 
+            </figure>
+            <div class="under-1"> <p class="under">The blog you will create.</p></div>
+            <ul class="unorder-list">
+                <p>Here are the sections in this course:</p> <br> <br>
+                <li>
+                    <p>Intro & demo</p>
+                </li>
+                <li>
+                    <p>Setup</p>
+                </li>
+                <li>
+                    <p>Header - HTML</p>
+                </li>
+                <li>
+                    <p>Base - CSS</p>
+                </li>
+                <li>
+                    <p>Header - CSS</p>
+                </li>
+                <li>
+                    <p>JavaScript events</p>
+                </li>
+                <li>
+                    <p>Search bar - HTML</p>
+                </li>
+                <li>
+                    <p>Search bar - CSS</p>
+                </li>
+                <li>
+                    <p>JavaScript events continued</p>
+                </li>
+                <li>
+                    <p>Featured articles - HTM</p>
+                </li>
+                <li>
+                    <p>Featured articles - CSS</p>
+                </li>
+                <li>
+                    <p>Quick read - HTML</p>
+                </li>
+                <li>
+                    <p>Quick read - CSS</p>
+                </li>
+                <li>
+                    <p>SwiperJS</p>
+                </li>
+                <li>
+                    <p>Older posts - HTML</p>
+                </li>
+                <li>
+                    <p>Older posts - CSS</p>
+                </li>
+                <li>
+                    <p>Popular tags - HTML</p>
+                </li>
+                <li>
+                    <p>Popular tags - CSS</p>
+                </li>
+                <li>
+                    <p>Newsletter - HTML</p>
+                </li>
+                <li>
+                    <p>Newsletter - CSS</p>
+                </li>
+                <li>
+                    <p>Footer - HTML</p>
+                </li>
+                <li>
+                    <p>Footer - CSS</p>
+                </li>
+                <li>
+                    <p>Blog post - HTML</p>
+                </li>
+                <li>
+                    <p>Blog post - CSS</p>
+                </li>
+                <li>
+                    <p>Media queries</p>
+                </li>
+            </ul>
+            <div>
+                <p>
+                        Watch the full course below or
+                    <a
+                            href="https://www.youtube.com/watch?v=Aj7HLsJenVg&feature=youtu.be"
+                            >on the freeCodeCamp.org YouTube channel (3-hour
+                            watch).
+                    </a >
+                </p> <br> <br>
+                <div>
+                    <img class="blog-2" src="./img/blog.png" alt="img" />
+                </div>
+                <div class="teach">
+                    <div>
+                        <img
+                                class="beau-img"
+                                src="./img/beau-carnes-gravatar.jpeg"
+                                alt="img"
+                            />
+                    </div>
+                    <div class="carnes">
+                        <div class="teacher">
+                            <div>Beau Carnes</div>
+                        </div>
+                        <div class="teacher-name">
+                            <p>
+                                    I'm a teacher and developer with
+                                    freeCodeCamp.org. I run the freeCodeCamp.org
+                                    YouTube channel.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="write-up">
+                    <p class="tweet2">
+                            If you read this far, tweet to the author to show
+                            them you care.
+                        <button>
+                            <a
+                                    class="tweet"
+                                    href="https://twitter.com/intent/tweet?text=Thank%20you%20%40beaucarnes%20for%20writing%20this%20helpful%20article.%0A%0AFrontend%20Development%20Project%20-%20Create%20a%20Blog%20with%20HTML%20%26%20CSS%0A%0Ahttps://www.freecodecamp.org/news/frontend-development-project-create-a-blog-with-html-css/"
+                                    >Tweet a thanks
+                            </a>
+                        </button>
+                    </p>
+                    <p>
+                            Learn to code for free. freeCodeCamp's open source
+                            curriculum has helped more than 40,000 people get
+                            jobs as developers.
+                        <button>
+                            <a
+                                    class="get-started"
+                                    href="https://www.freecodecamp.org/learn/"
+                                    >Get Started
+                            </a>
+                        </button>
+                    </p>
+                </div>
+            </div>
+        </div>
+        
+         </div>
+        <footer class="footer-container">
+            <div class="footer-top">
+                <div class="div-left">
+                    
+                    <p>
+                        freeCodeCamp is a donor-supported tax-exempt 501(c)(3)
+                        charity organization (United States Federal Tax
+                        Identification Number: 82-0779546)
+                    </p> <br> 
+                    <p>
+                        Our mission: to help people learn to code for free. We
+                        accomplish this by creating thousands of videos, articles,
+                        and interactive coding lessons - all freely available to the
+                        public. We also have thousands of freeCodeCamp study groups
+                        around the world.
+                    </p> <br>
+                    <p>
+                        Donations to freeCodeCamp go toward our education
+                        initiatives, and help pay for servers, services, and staff.
+                    </p> <br>
+                    <p class="tax">You can <a href="https://www.freecodecamp.org/donate/">make a tax-deductible donayion here.</a></p>
+                </div>
+                <div class="div-right">
+                    <div >
+                        <div>
+                            <h4 class="guides">Trending Guides</h4>
+                        </div>
+                        <div class="ul-wrapper">
+                            <ul class="right-1">
+                                <li class="list-item">
+                                    
+                                    <a
+                                        href="https://www.freecodecamp.org/news/how-to-check-if-a-string-contains-a-substring-javascript/"
+                                        >Js Substring tutorial
+                                    </a>
+                                </li>
+                                <li class="list-item">
+                                    <a href="https://www.freecodecamp.org/news/bubble-sort-algorithm-in-java-cpp-python-with-example-code/"
+                                    >Bubble Sort Algorithm</a>
+                                </li>
+                                <li class="list-item">
+                                    <a href="https://www.freecodecamp.org/news/html-background-image-how-to-add-wallpaper-images-to-your-website/">HTML Background Image</a>
+                                </li>
+                                <li class="list-item">
+                                    <a href="https://www.freecodecamp.org/news/what-is-data-science-what-a-data-scientist-actually-does/">What is Data Science</a>
+                                </li>
+                                <li class="list-item">
+                                    <a href="https://www.freecodecamp.org/news/sql-subquery-how-to-sub-query-in-select-statement/">SQL Subquery in select</a>
+                                </li>
+                                <li class="list-item">
+                                    <a href="https://www.freecodecamp.org/news/rename-file-linux-bash-command/">Rename a file in linux</a>
+                                </li>
+                                <li class="list-item">
+                                    <a href="https://www.freecodecamp.org/news/git-remove-last-commit-how-to-undo-a-commit-in-git/">Git Remove Last Submmit</a>
+                                </li>
+                                <li class="list-item">
+                                    <a href="https://www.freecodecamp.org/news/what-is-a-java-hashmap/">What is Java Hashmap</a>
+                                </li>
+                                <li class="list-item">
+                                    <a href="https://www.freecodecamp.org/news/crud-operations-crud-definition-in-programming/">CRUD Operation Defined</a>
+                                </li>
+                                <li class="list-item">
+                                    <a href="https://www.freecodecamp.org/news/git-push-local-branch-to-remote-how-to-publish-a-new-branch-in-git/">Git Push Local To Remote</a>
+                                </li>
+                            </ul>
+                            <ul class="right-2">
+                                <li class="list-item">
+                                    <a href="https://www.freecodecamp.org/news/ux-vs-ui-whats-the-difference-definition-and-meaning/">UX vs UI</a>
+                                </li>
+                                <li class="list-item">
+                                    <a href="https://www.freecodecamp.org/news/vlookup-in-excel-formula-and-example-function/">VLOOKUP in Excel</a>
+                                </li>
+                                <li class="list-item">
+                                    <a href="https://www.freecodecamp.org/news/big-o-cheat-sheet-time-complexity-chart/">Big O Cheatsheet</a>
+                                </li>
+                                <li class="list-item">
+                                    <a href="https://www.freecodecamp.org/news/big-o-cheat-sheet-time-complexity-chart/"></a>
+                                </li>
+                                <li class="list-item">
+                                    <a href="https://www.freecodecamp.org/news/renaming-a-git-branch-how-to-rename-the-current-branch-in-git/">Git Rename Branch</a>
+                                </li>
+                                <li class="list-item">
+                                    <a href="https://www.freecodecamp.org/news/how-to-create-a-pivot-table-in-excel/">Excel Pivot Table</a>
+                                </li>
+                                <li class="list-item">
+                                    <a href="https://www.freecodecamp.org/news/what-is-alt-text-image-alt-text-html-example/">What Is Alt</a>
+                                </li>
+                                <li class="list-item">
+                                    <a href="https://www.freecodecamp.org/news/html-drop-down-menu-how-to-add-a-drop-down-list-with-the-select-element/">HTML Dropdown Menu</a>
+                                </li>
+                                <li class="list-item">
+                                    <a href="https://www.freecodecamp.org/news/python-reverse-list-reversing-an-array-in-python/">Python Reverse List</a>
+                                </li>
+                                <li class="list-item">
+                                    <a href="https://www.freecodecamp.org/news/how-to-compare-arrays-in-javascript/">Compare Arrays in JS</a>
+                                </li>
+                                <li class="list-item">
+                                    <a href="https://www.freecodecamp.org/news/html-background-color-change-bg-color-tutorial/">HTML Background Color</a>
+                                </li>
+                            </ul>
+                            <ul class="right-3">
+                                <li class="list-item">
+                                    <a href="https://www.freecodecamp.org/news/how-to-lowercase-a-string-in-javascript-tolowercase-in-js/">Lowercase a String in JS</a>
+                                </li>
+                                <li class="list-item">
+                                    <a href="https://www.freecodecamp.org/news/data-visualization-tools-guide/">Data Visualization Tools</a>
+                                </li>
+                                <li class="list-item">
+                                    <a href="https://freecodecamp.org/news/css-selectors-cheat-sheet-for-beginners/">CSS Selectors Cheatsheet</a>
+                                </li>
+                                <li class="list-item">
+                                    <a href="https://www.freecodecamp.org/news/sort-dictionary-by-value-in-python/">Sort Dict By Value Python</a>
+                                </li>
+                                <li class="list-item">
+                                    <a href="https://www.freecodecamp.org/news/how-to-change-text-color-in-html/">Change Text Color In HTML</a>
+                                </li>
+                                <li class="list-item">
+                                    <a href="https://www.freecodecamp.org/news/dictionary-comprehension-in-python-dict-comprehensions-explained/">Python Dict Comprehension</a>
+                                </li>
+                                <li class="list-item">
+                                    <a href="https://www.freecodecamp.org/news/kernel-security-check-failure-how-to-restart-the-kernel-in-windows-10/">Restart Kernal In Windows</a>
+                                </li>
+                                <li class="list-item">
+                                    <a href="https://www.freecodecamp.org/news/computer-programmer-salary-how-much-do-coders-make/">Computer Programmer Salary</a>
+                                </li>
+                                <li class="list-item">
+                                    <a href="https://www.freecodecamp.org/news/how-to-dual-boot-windows-10-and-ubuntu-linux-dual-booting-tutorial/">Dual Boot Windows + Ubuntu</a>
+                                </li>
+                                <li class="list-item">
+                                    <a href="https://www.freecodecamp.org/news/what-is-information-systems-definition-for-beginners/">What Is Information System</a>
+                                </li>
+                            </ul>   
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div>
+                    <a class="a-tag" href="https://www.freecodecamp.org/news/about/">About</a>
+                    <a class="a-tag" href="https://www.linkedin.com/school/free-code-camp/people/">Alumni Nework</a>
+                    <a class="a-tag" href="https://github.com/freeCodeCamp/">Open Source</a>
+                    <a class="a-tag" href="https://www.freecodecamp.org/news/shop/">shop</a>
+                    <a class="a-tag" href="https://www.freecodecamp.org/news/support/">Support</a>
+                    <a class="a-tag" href="https://www.freecodecamp.org/news/sponsors/">Sponsors</a>
+                    <a class="a-tag" href="https://www.freecodecamp.org/news/academic-honesty-policy/">Academic Honesty</a>
+                    <a class="a-tag" href="https://www.freecodecamp.org/news/code-of-conduct/">Code of Conduct</a>
+                    <a class="a-tag" href="https://www.freecodecamp.org/news/privacy-policy/">Privacy Policy</a>
+                    <a class="a-tag" href="https://www.freecodecamp.org/news/terms-of-service/">Terms of Service</a>
+                    <a class="a-tag" href="https://www.freecodecamp.org/news/copyright-policy/">Copy Right Policy</a>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>
